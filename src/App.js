@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import './App.css';
 import firebase from 'firebase/app';
 import 'firebase/database';
-import  ItemList  from './Components/ItemList'
+//import  ItemList  from './Components/ItemList'
 import AddLink from './Components/AddLink';
 import BackButton from './Components/BackButton';
 import AddFolder from './Components/AddFolder';
