@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import './App.css';
 import firebase from 'firebase/app';
 import 'firebase/database';
-//import  ItemList  from './Components/ItemList'
+import  ItemList  from './Components/ItemList'
 import AddLink from './Components/AddLink';
 import BackButton from './Components/BackButton';
 import AddFolder from './Components/AddFolder';
@@ -19,14 +19,14 @@ import { DndProvider } from 'react-dnd'
 import Backend from 'react-dnd-html5-backend'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCHyktJVGIzKbUvJTPGYfO2LOfuTtTYzDM",
-  authDomain: "linx-22a8d.firebaseapp.com",
-  databaseURL: "https://linx-22a8d.firebaseio.com",
-  projectId: "linx-22a8d",
-  storageBucket: "linx-22a8d.appspot.com",
-  messagingSenderId: "420143947697",
-  appId: "1:420143947697:web:0cd132179c292b91006790",
-  measurementId: "G-S641Y5RGW1"
+    apiKey: "AIzaSyDEH9PW7NWmviwE65LvCVUos6LQtMsoeyI",
+    authDomain: "linx-17e10.firebaseapp.com",
+    databaseURL: "https://linx-17e10.firebaseio.com",
+    projectId: "linx-17e10",
+    storageBucket: "linx-17e10.appspot.com",
+    messagingSenderId: "476093289821",
+    appId: "1:476093289821:web:e1e3a275006252330644b4",
+    measurementId: "G-VHKTPXHS5E"
 };
 firebase.initializeApp(firebaseConfig);
 const db = firebase.database().ref();
